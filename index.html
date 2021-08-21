@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Memory</title>
+</head>
+
+<body>
+    <center>
+        <img src="imgs/titre.png" />
+        <div class="game-info d-flex justify-content-lg-between">
+
+            <div width="220">Temps Restant: <span id="timer" style="color:#FF0000;"></span></div>
+            <div width="180">Clics: <span id="comptClics" style="color:#FF0000;">0</span></div>
+            <div width="200">paires trouvées: <span id="nbPairesTrouvees" style="color:#FF0000;">0</span></div>
+
+        </div>
+
+        <div id="TabJeu">
+            <div class="containimgs row justify-content-center">
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+                <img class="col-lg-3 col-md-4 col-sm-4 effet" src="imgs/dosImg.png" />
+            </div>
+
+        </div>
+
+        <input id="btnA" class="effetBtn" type="button" name="Submit" onclick="afficherMasquerSolution()" value="Afficher">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input id="btn" class="effetBtn" type="button" name="Submit" onclick="rejouer()" value="Recommencer">
+        <br/><br/>
+        <div id="resultat" class="resultat" style="visibility: hidden;">bravo</div>
+    </center>
+    <iframe width="0" height="0" src="audios/silence.mp3" allow="autoplay" id="audio"></iframe>
+    <audio id="BgMusic" autoplay>
+    <source src="audios/creepy.mp3" type="audio/mpeg"></audio>
+
+    <script src="js/jquery.min.js" async></script>
+    <script src="js/bootstrap.bundle.min.js" async></script>
+    <script src="js/script.js" async></script>
+</body>
+
+</html>
