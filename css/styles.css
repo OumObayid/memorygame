@@ -17,10 +17,6 @@ body {
     height: 100vh;
 }
 
-* {
-    border: 2px solid red;
-}
-
 .containimgs img {
     cursor: pointer;
 }
@@ -54,7 +50,7 @@ body {
     border: 2px solid green;
     letter-spacing: 1px;
     text-shadow: 0;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -62,6 +58,10 @@ body {
     background: #C9A7F4;
     border: 2px solid #713FB1;
     color: #412368;
+}
+
+* {
+    font-size: 30px;
 }
 
 @media only screen and (max-width: 768px) {
