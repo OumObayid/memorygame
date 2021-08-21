@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Creepy";
+    src: url("../fonts/Creepy.woff") format("woff"), url("../fonts/Creepy.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Lunacy";
+    src: url("../fonts/Lunacy.woff") format("woff"), url("../fonts/Lunacy.woff2") format("woff2");
+}
+
+body {
+    background-image: url("../imgs/bg.gif");
+    /* background-repeat: no-repeat;
+    background-size: 100%; */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+* {
+    border: 2px solid red;
+}
+
+.containimgs img {
+    cursor: pointer;
+}
+
+.title,
+.resultat {
+    color: #FF0000;
+    font-family: Creepy, serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+}
+
+.game-info {
+    font-weight: bold;
+    color: #3b1057;
+    font-size: 20px;
+}
+
+.containimgs img:hover {
+    transform: rotate(3deg);
+}
+
+.effetBtn {
+    outline: none;
+    height: 30px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    border: 2px solid green;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.effetBtn:hover {
+    background: #C9A7F4;
+    border: 2px solid #713FB1;
+    color: #412368;
+}
+
+@media only screen and (max-width: 768px) {
+    img {
+        height: 500px;
+        /* margin: 0 auto; */
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .containimgs,
+    .game-info {
+        width: 94%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .containimgs,
+    .game-info {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
