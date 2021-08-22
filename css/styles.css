@@ -15,24 +15,26 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    font-size: large;
 }
 
-.containimgs img {
+.containimgs img,
+.effetBtn {
     cursor: pointer;
 }
 
-.title,
 .resultat {
     color: #FF0000;
     font-family: Creepy, serif;
     font-weight: normal;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .game-info {
     font-weight: bold;
-    color: #3b1057;
+    color: #8640b4 !important;
+    font-size: 30px;
 }
 
 .containimgs img:hover {
@@ -43,13 +45,13 @@ body {
     outline: none;
     text-align: center;
     width: 30%;
-    height: 45px;
+    height: 50px;
     border-radius: 40px;
     background: #fff;
     border: 2px solid #724ca3;
     letter-spacing: 1px;
     text-shadow: 0;
-    font-size: 20px;
+    font-size: 30px;
     color: #724ca3;
     font-weight: bold;
     margin-top: 10px;
@@ -61,8 +63,8 @@ body {
     color: #412368;
 }
 
-* {
-    font-size: 25px;
+.title {
+    width: 70% !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -78,6 +80,9 @@ body {
         width: 94%;
         margin: 0 auto;
     }
+    .title {
+        width: 250px;
+    }
 }
 
 @media only screen and (min-width: 993px) {
@@ -85,5 +90,12 @@ body {
     .game-info {
         width: 60%;
         margin: 0 auto;
+    }
+    .title {
+        width: 250px !important;
+    }
+    .effetBtn,
+    .game-info {
+        font-size: 20px;
     }
 }
