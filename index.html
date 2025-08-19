@@ -1,18 +1,79 @@
 ﻿<!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <title>Memory Game</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    /* --- POPUP --- */
+    #popup {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    #popup-content {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 400px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    #popup button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: none;
+      background: #3498db;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #popup button:hover {
+      background: #2980b9;
+    }
 
-    <title>Memory</title>
+    /* --- MEMORY GAME (à personnaliser) --- */
+    #memory-game {
+      display: none; /* masqué tant que popup est ouvert */
+      text-align: center;
+      padding: 20px;
+    }
+    .card {
+      display: inline-block;
+      width: 80px;
+      height: 100px;
+      margin: 5px;
+      background: #ccc;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
 </head>
-
 <body>
 
+  <!-- POPUP -->
+  <div id="popup">
+    <div id="popup-content">
+      <h2>Bienvenue au Memory Game 🎮</h2>
+      <p>Trouvez toutes les paires de cartes identiques.<br>
+         Cliquez sur une carte pour la retourner et essayez de mémoriser sa position.</p>
+      <button id="start-btn">Commencer le jeu</button>
+    </div>
+  </div>
 
-    <center>
+  <!-- MUSIQUE DE FOND -->
+  <audio id="BgMusic" loop>
+    <source src="audios/creepy.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- ZONE DE JEU -->
+   <center>
         <img class="title" src="imgs/titre.png" />
         <div class="game-info d-flex justify-content-between">
 
@@ -50,14 +111,19 @@
         <br/><br/>
         <div id="resultat" class="resultat" style="visibility: hidden;">bravo</div>
     </center>
-
-    <audio id="BgMusic" autoplay>
-    <source src="audios/creepy.mp3" type="audio/mpeg"></audio>
-
-    <script src="js/jquery.min.js" async></script>
+  <script src="js/jquery.min.js" async></script>
     <script src="js/bootstrap.bundle.min.js" async></script>
     <script src="js/script.js" async></script>
+  <!-- SCRIPT -->
+  <script>
+    $(function(){
+      $("#start-btn").on("click", function(){
+        $("#popup").fadeOut();
+        $("#memory-game").fadeIn();
+        $("#BgMusic")[0].play(); // démarrer la musique
+      });
+    });
+  </script>
 
 </body>
-
 </html>

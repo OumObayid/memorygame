@@ -1,6 +1,6 @@
  //music de fond aau cours de la partie du jeu
  var monElementAudio = document.getElementById('BgMusic');
- monElementAudio.volume = 0.1;
+ monElementAudio.volume = 0.5;
  //compteur de secondes
  var seconds = 60; // parametrable
  document.getElementById("timer").textContent = seconds;
