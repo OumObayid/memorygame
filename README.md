@@ -12,6 +12,11 @@ Ce projet est développé en **HTML5, CSS3, JavaScript**, avec l’aide de **jQu
 
 ---
 
+📸 Aperçu
+<img width="320" height="180" alt="memorygame" src="https://github.com/user-attachments/assets/c9776b58-fcd1-469c-87f4-20bf5c5a3d20" />
+
+---
+
 ## 🚀 Démo
 👉 <a href="https://memorygame.oumportfolio.com/">Lien vers le site</a>
 
