@@ -59,3 +59,11 @@ Ce projet est développé en **HTML5, CSS3, JavaScript**, avec l’aide de **jQu
 git clone https://github.com/OumObayid/memorygame.git
 ```
 2. Lancez index.html
+
+---
+
+## 👨‍💻 Auteur :
+    - **Oumaima El Obayid** 
+    - Email : elobayidoumaima@gmail.com --- 
+
+---
