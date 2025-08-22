@@ -13,7 +13,7 @@ Ce projet est développé en **HTML5, CSS3, JavaScript**, avec l’aide de **jQu
 ---
 
 ## 🚀 Démo
-👉 <a href="https://memorygame.oumportfolio.com/" target="_blank">Lien vers le site</a>
+👉 <a href="https://memorygame.oumportfolio.com/">Lien vers le site</a>
 
 
 ---
