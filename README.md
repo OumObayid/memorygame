@@ -44,7 +44,7 @@ Ce projet est développé en **HTML5, CSS3, JavaScript**, avec l’aide de **jQu
 
 ---
 
-** ⚡ Utilisation des bibliothèques :**  
+## ⚡ Utilisation des bibliothèques 
 
 - jQuery : gestion des clics sur les cartes et sur le popup de démarrage, animations `fadeIn` / `fadeOut`.  
 - Bootstrap : utilisation de la grille (`row`, `col-*`) pour aligner les cartes et des classes utilitaires pour les marges et couleurs.  
