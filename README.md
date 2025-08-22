@@ -12,15 +12,15 @@ Ce projet est développé en **HTML5, CSS3, JavaScript**, avec l’aide de **jQu
 
 ---
 
-📸 Aperçu
+## 📸 Aperçu
 
 <img width="320" height="180" alt="memorygame" src="https://github.com/user-attachments/assets/c9776b58-fcd1-469c-87f4-20bf5c5a3d20" />
 
 ---
 
 ## 🚀 Démo
-👉 <a href="https://memorygame.oumportfolio.com/">Lien vers le site</a>
 
+👉 <a href="https://memorygame.oumportfolio.com/">Lien vers le site</a>
 
 ---
 
@@ -42,7 +42,10 @@ Ce projet est développé en **HTML5, CSS3, JavaScript**, avec l’aide de **jQu
 - **Bootstrap 5** : mise en page responsive et composants UI  
 - **Audio** : musique de fond intégrée pour l’ambiance  
 
-**Utilisation des bibliothèques :**  
+---
+
+** Utilisation des bibliothèques :**  
+
 - jQuery : gestion des clics sur les cartes et sur le popup de démarrage, animations `fadeIn` / `fadeOut`.  
 - Bootstrap : utilisation de la grille (`row`, `col-*`) pour aligner les cartes et des classes utilitaires pour les marges et couleurs.  
 
@@ -50,6 +53,9 @@ Ce projet est développé en **HTML5, CSS3, JavaScript**, avec l’aide de **jQu
 
 ## 🚀 Installation et utilisation
 
-1. Clonez le projet :  
-```bash
+1. Clonez le projet :
+
+```
 git clone https://github.com/OumObayid/memorygame.git
+```
+2. Lancez index.html
