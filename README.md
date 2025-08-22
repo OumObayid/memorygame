@@ -12,6 +12,11 @@ Ce projet est développé en **HTML5, CSS3, JavaScript**, avec l’aide de **jQu
 
 ---
 
+## 🚀 Démo
+👉 [Lien vers le site](https://memorygame.oumportfolio.com/)
+
+---
+
 ## 🕹️ Comment jouer
 
 1. Cliquez sur une carte pour la retourner.  
